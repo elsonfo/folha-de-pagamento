@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#employeeEntries div {
+    margin-bottom: 10px;
+}
+
+input, button {
+    margin-top: 5px;
+}
+
+@media print {
+    button {
+        display: none; /* Ocultar botões ao imprimir */
+    }
+    /* Aqui você pode adicionar mais estilos para melhorar a formatação da impressão */
+}
