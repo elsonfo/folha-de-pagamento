@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Folha de Pagamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Folha de Pagamento</h1>
+    <form id="payrollForm">
+        <div id="employeeEntries"></div>
+        <button type="button" onclick="addEmployee()">Adicionar Funcionário</button>
+        <button type="submit">Calcular Salários</button>
+        <button type="button" onclick="printReport()">Imprimir Relatório</button> <!-- Botão de impressão -->
+    </form>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
